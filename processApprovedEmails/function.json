@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "name": "doc",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "htn.approved",
+      "connection": "ntt-bus_RootManageSharedAccessKey_SERVICEBUS",
+      "accessRights": "manage"
+    }
+  ],
+  "disabled": false
+}
